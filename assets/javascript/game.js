@@ -30,10 +30,10 @@ $(document).ready(function() {
         $(".completed-box").html(roundsCompleted);
         $(".roundscore-box").html(roundScore); 
         $(".target-box").html(targetNumber);
-        $("#idCryst1").html(valCryst1);
-        $("#idCryst2").html(valCryst2);
-        $("#idCryst3").html(valCryst3);
-        $("#idCryst4").html(valCryst4);
+        $("#idCryst1").html(valCryst1); //can be removed to comply with original instructions.
+        $("#idCryst2").html(valCryst2); //can be removed to comply with original instructions.
+        $("#idCryst3").html(valCryst3); //can be removed to comply with original instructions.
+        $("#idCryst4").html(valCryst4); //can be removed to comply with original instructions.
 
         console.log("Target Number: " + targetNumber + " valCryst numbers: " + valCryst1 + " " + valCryst2 + " " + valCryst3 + " " + valCryst4);
         console.log("RS1: " + roundScore);

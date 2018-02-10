@@ -14,4 +14,18 @@ body {
     color: white;
     padding: 0px;
 }
-    
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+  }  
+
+  #scoreboard {
+    margin-top: 20px;
+  }
+
+  .rules-box {
+    margin-top: 20px;
+  }
