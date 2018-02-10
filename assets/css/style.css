@@ -29,3 +29,9 @@ body {
   .rules-box {
     margin-top: 20px;
   }
+
+.btn-primary {
+  background-color: rgb(105,68,128);
+  border-color: rgb(105,68,128)
+  
+}
