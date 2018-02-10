@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crystal Collector!</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+   
+    <header>
+        <div class="container row" id="header-container">
+            <h2>Crystal Collector Game!</h2> 
+        </div>      
+    </header>
+
+    <div id="main-container" class="container">
+
+        <div class="row" id="scoreboard">
+
+            <div class="col-3">
+                <h4>Target Number:</h4>
+                <p class="target-box"></p>
+            </div>
+
+            <div class="col-3">
+                <h4>Round Score:</h4>
+                <p class="roundscore-box"></p>
+            </div>
+
+            <div class="col-2">
+                <h4>Rounds Completed:</h4>
+                <p class="roundscore-box"></p>
+            </div>
+
+            <div class="col-2">
+                <h4>Wins:</h4>
+                <p class="win-box"></p>
+            </div>
+
+            <div class="col-2">
+                <h4>Losses:</h4>
+                <p class="loss-box"></p>
+            </div>
+
+        </div>
+
+
+        <div class="row crystals-box">
+
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/quartz.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Quartz</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p id="idCryst1"></p>
+                        <button class="btn btn-primary crystal-button" value="quartz">Quartz</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/sulphur.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Sulphur</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p id="idCryst2"></p>
+                        <button class="btn btn-primary crystal-button" value="sulphur">Sulphur</button>
+                    </div>
+                </div>
+            </div>  
+
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/diamond.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Diamond</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p id="idCryst3"></p>
+                        <button class="btn btn-primary crystal-button" value="diamond">Diamond</button>
+                        </div>
+                </div>
+            </div>
+                
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/ruby.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Ruby</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p id="idCryst4"></p>
+                        <button class="btn btn-primary crystal-button" value="ruby">Ruby</button>
+                    </div>
+                </div>
+            </div>   
+
+        </div>
+    </div>
+
+    
+   
+    <footer>
+        <div class="container row" id="footer-container">
+            <h6>&copy;Copyright 2018 Patrick Kearney</h6> 
+        </div>      
+    </footer>
+
+    
+    <script src="assets/javascript/game.js"></script>
+
+
+</body>
+
+</html>
