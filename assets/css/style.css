@@ -2,3 +2,16 @@
 body {
 
 }
+
+.jumbotron {
+    background-image: url("../images/geode.jpg")
+
+}
+
+.jumbotron h1 {
+    font-family: 'Satisfy', cursive;
+    font-size: 64px;
+    color: white;
+    padding: 0px;
+}
+    
