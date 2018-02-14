@@ -66,14 +66,14 @@ $(document).ready(function() {
 
         if (roundScore === targetNumber) {
             console.log("You win!");
-            alert("You won! Let's play gain!")
+            alert("You won! Let's play again!")
             wins++;
             roundsCompleted++;
             initializeRound();
 
         } else if (roundScore >= targetNumber) {
             console.log("You lose!!");
-            alert("Better luck next time. Loss. Let's try again.")
+            alert("Better luck next time. Loss. Let's try again!")
             losses++;
             roundsCompleted++;
             initializeRound();  
